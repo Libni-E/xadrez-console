@@ -4,12 +4,26 @@ using xadrez_console;
 using xadrez;
 using TabuleiroExcecao;
 
-PosicaoXadrez pos = new PosicaoXadrez('a', 1);
+try
+{
+    Tabuleiro tab = new Tabuleiro(8, 8);
 
-Console.WriteLine(pos);
+    tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
+    tab.ColocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 7));
+    tab.ColocarPeca(new Rei(tab, Cor.Preta), new Posicao(2, 4 ));
+    tab.ColocarPeca(new Torre(tab, Cor.Branca), new Posicao(5, 3));
 
-Console.WriteLine(pos.ToPosicao());
-Console.ReadLine();
+    Tela.ImprimirTabuleiro(tab);
+
+    Console.ReadLine();
+
+
+}
+catch (TabuleiroException e)
+{
+    Console.WriteLine(e.Message);
+
+}
 
 
 
