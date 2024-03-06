@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace tabuleiro
 {
@@ -20,6 +21,11 @@ namespace tabuleiro
             this.cor = cor;
             Tab = tab;
             QuantidadeDeMovimentos = 0;
+        }
+
+        public void IncrementarQteMovimentos()
+        {
+            QuantidadeDeMovimentos++;
         }
 
         
