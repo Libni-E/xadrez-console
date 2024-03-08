@@ -1,4 +1,4 @@
-﻿using TabuleiroExcecao;
+﻿using tabuleiro;
 
 namespace tabuleiro
 {

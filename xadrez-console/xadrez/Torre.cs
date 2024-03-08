@@ -57,20 +57,7 @@ namespace xadrez
 
             }
 
-            //Abaixo
-            pos.DefinirValores(posicao.Linha + 1, posicao.Coluna);
-
-            while (Tab.PosicaoValida(pos) && PodeMover(pos))
-            {
-                mat[pos.Linha, pos.Coluna] = true;
-                if (Tab.peca(pos) != null && Tab.peca(pos).cor != cor)
-                {
-                    break;
-                }
-
-                pos.Linha = pos.Linha + 1;
-
-            }
+            
 
             //Direita
             pos.DefinirValores(posicao.Linha, posicao.Coluna + 1);
