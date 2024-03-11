@@ -7,12 +7,17 @@ using xadrez;
 try
 {
     PartidaDeXadrez partida = new PartidaDeXadrez();
-
+    //Console.Write(ImpressaoDeEntrada());
+    //Console.ReadLine();
+    Console.WriteLine("Jogo de Xadrez entre com os nomes dos jogadores: ");
+    string[] nomes = Console.ReadLine().Split(' ');
     while (!partida.Terminada)
     {
         try
         {
             Console.Clear();
+            Console.WriteLine(nomes[0] + " X " + nomes[1] );
+
             Tela.ImprimirPartida(partida);
             
 
@@ -49,6 +54,24 @@ catch (TabuleiroException e)
 {
     Console.WriteLine(e.Message);
 
+}
+
+static string ImpressaoDeEntrada()
+{
+    
+    return "-------------------------------------------------------------------------\n" + 
+           "------    ----------    -------------------    -------------    ---------\n" +
+           "-------    --------    -----            ---  -  -----------  -  -----------\n" +
+           "--------    ------    ------    -----------  --  ---------  -  -  ---\n" +
+           "---------    ----    -------    -----------  ---  -------  -  --  ---\n" +
+           "----------    --    --------         ------  ----  -----  -  ---  --------\n" +
+           "----------    --    --------         ------  -----  ---  -  ----  --------\n" +
+           "---------    ----    -------    -----------  ------  -  -  -----  ---\n" +
+           "--------    ------    ------    -----------  -----------  ------  -----------\n" +
+           "-------    --------    -----            ---  ---------     --------  -------\n" +
+           "------    ----------    -------------------   ------    ----------  -------------\n" +
+           "-------------------------------------------------------------------------------------------------\n";
+           
 }
 
 
