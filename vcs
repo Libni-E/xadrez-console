@@ -1,0 +1,65 @@
+[33mcommit 35b46fa8453a659b6760a39bb532312353830a29[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Fri Mar 8 10:33:40 2024 -0300
+
+    Implementando as restricoes de movimento
+
+[33mcommit b4daf8b706c6cd8c1fa43dfb5270859defb9ede3[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Wed Mar 6 18:33:18 2024 -0300
+
+    Testes iniciais com movimetnos possiveis das pecas
+
+[33mcommit 7f05e58af3befd17ae2c0ca83d08d89e943ef21b[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Wed Mar 6 17:05:49 2024 -0300
+
+    Fazendo os primeiros testes de movimentacao
+
+[33mcommit dae078ed38d82571b519720e123bdc69d938e4fe[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Tue Mar 5 19:15:28 2024 -0300
+
+    Melhorando a implementacao do metodo imprimir tela
+
+[33mcommit 353a60a923ed16dafc403baa3dddb77832556bd5[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Tue Mar 5 17:08:35 2024 -0300
+
+    Criando a classe PosicaoXadrez
+
+[33mcommit 9303e8363f7d10edeef6bf8af2b3ef02676bec9d[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Tue Mar 5 16:56:16 2024 -0300
+
+    Tratando erros com excecoes personalizadas
+
+[33mcommit 750b6b5e617d9c215f335ae54570078841bca93e[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Tue Mar 5 15:51:07 2024 -0300
+
+    Comencando a colocar pecas no tabuleiro
+
+[33mcommit 6f47ed97277847c9862ed52e4e19fb7a5773800b[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Tue Mar 5 15:32:16 2024 -0300
+
+    Comecando a implementar o metodo que imprime o tabuleiro
+
+[33mcommit 933640fd078012ba33b13b2b050a72ee3decd33a[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Tue Mar 5 14:56:41 2024 -0300
+
+    Comecando a implementar o tabuleiro
+
+[33mcommit edfd63bcc288f2202375620ca8ecb78451645d3c[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Tue Mar 5 14:45:48 2024 -0300
+
+    Criada a classe posicao
+
+[33mcommit 0b9bc9bd7f47493e6f57f953f9d60bffa84bc827[m
+Author: Libni.Dev <libnievanio@gmail.com>
+Date:   Tue Mar 5 14:36:54 2024 -0300
+
+    Projeto criado
