@@ -17,6 +17,7 @@ try
         {
             Console.Clear();
             Console.WriteLine(nomes[0] + " X " + nomes[1] );
+            Console.WriteLine();
 
             Tela.ImprimirPartida(partida);
             
@@ -30,6 +31,8 @@ try
             bool[,] posicoesPosiveis = partida.Tab.peca(origem).MovimentosPosiveis();
 
             Console.Clear();
+            Console.WriteLine(nomes[0] + " X " + nomes[1]);
+            Console.WriteLine();
             Tela.ImprimirTabuleiro(partida.Tab, posicoesPosiveis);
 
             Console.WriteLine();
