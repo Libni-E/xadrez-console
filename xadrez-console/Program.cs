@@ -46,6 +46,11 @@ try
             Console.WriteLine(e.Message);
             Console.ReadLine();
         }
+        catch(Exception)
+        {
+            Console.WriteLine("Entrada de dados incorreta " );
+            Console.ReadLine();
+        }
 
     }
 
